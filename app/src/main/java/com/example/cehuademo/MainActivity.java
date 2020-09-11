@@ -57,12 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 //设置侧面栏缩放
                 leftView.setPivotX(-leftView.getWidth() / 6.0f);
                 leftView.setPivotY(leftView.getHeight() / 2.0f);
-                leftView.setScaleX(0.8f + 0.2f * slideOffset);
-                leftView.setScaleY(0.8f + 0.2f * slideOffset);
+                leftView.setScaleX(0.7f + 0.3f * slideOffset);
+                leftView.setScaleY(0.7f + 0.3f * slideOffset);
 
                 //设置首页滑动时缩放
-                container.setScaleX(1f - 0.2f * slideOffset);
-                container.setScaleY(1f - 0.2f * slideOffset);
+                container.setScaleX(1f - 0.3f * slideOffset);
+                container.setScaleY(1f - 0.3f * slideOffset);
                 container.setElevation(10.0f * slideOffset);
             }
 
