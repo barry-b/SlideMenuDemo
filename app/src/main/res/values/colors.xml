@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A9B3F3</color>
+    <color name="colorPrimaryDark">#A9B3F3</color>
+    <color name="colorAccent">#A9B3F3</color>
+
+    <color name="bk_slide">#CBE6DCF7</color>
+</resources>
