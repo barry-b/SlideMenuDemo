@@ -63,8 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 //设置首页滑动时缩放
                 container.setScaleX(1f - 0.2f * slideOffset);
                 container.setScaleY(1f - 0.2f * slideOffset);
-                container.setElevation(6.0f * slideOffset);
-                Log.d(TAG, "onPanelSlide: slideOffset==="+slideOffset);
+                container.setElevation(10.0f * slideOffset);
             }
 
             @Override
